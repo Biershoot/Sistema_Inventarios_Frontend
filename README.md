@@ -1,59 +1,52 @@
-# InventarioApp
+# 📦 Sistema de Inventario - Fullstack App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+Este proyecto es un sistema de gestión de inventarios desarrollado como parte del reto #HágaseUnEcommerceChallenge. La aplicación permite crear, listar, editar y eliminar productos desde una interfaz web construida en Angular, con una API REST en Java Spring Boot como backend.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🛠️ Tecnologías Utilizadas
 
+### 🔙 Backend (Java Spring Boot)
+- Java 17
+- Spring Boot 3
+- Spring Data JPA
+- MySQL
+- Lombok
+
+### 🔜 Frontend (Angular)
+- Angular 16+
+- Bootstrap 5
+- TypeScript
+
+---
+
+## ⚙️ Estructura del Proyecto
+
+
+---
+
+## 🚀 Características Principales
+
+### Backend
+- ✅ API REST para productos
+- ✅ CRUD completo (Crear, Leer, Actualizar, Eliminar)
+- ✅ Conexión a base de datos MySQL
+- ✅ CORS habilitado para acceso desde el frontend
+
+### Frontend
+- ✅ Catálogo de productos con diseño responsive
+- ✅ Formularios para crear y editar productos
+- ✅ Bootstrap para estilos modernos
+- ✅ Conexión al backend mediante servicios HTTP
+
+---
+
+## 🔌 Instalación y Ejecución
+
+### 1. Clonar el repositorio
 ```bash
+git clone https://github.com/tu_usuario/tu_repositorio.git
+cd tu_repositorio
+cd frontend
+npm install
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
